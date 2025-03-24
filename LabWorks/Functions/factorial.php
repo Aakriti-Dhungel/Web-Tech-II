@@ -12,6 +12,6 @@ function factorial($n) {
 }
 
 // Testing the function
-echo "Factorial of 5 is " . factorial(9);  
+echo "Factorial of 9 is " . factorial(9);  
 ?>
 

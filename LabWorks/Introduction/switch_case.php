@@ -1,4 +1,5 @@
 <?php
+/* Write a program of switch statement in PHP as of your choice. */
 $day = 2;
 
 switch ($day) {

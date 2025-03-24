@@ -14,6 +14,6 @@ $addFunction = "addition";
 $mulFunction = "multiplication";
 
 // Call functions dynamically using variable function calls
-echo "Addition: " . $addFunction(5, 3) . "\n"; 
-echo "Multiplication: " . $mulFunction(5, 3) . "\n"; 
+echo "Addition: " . $addFunction(5, 3) . "<br>"; 
+echo "Multiplication: " . $mulFunction(5, 3) . "<br>"; 
 ?>

@@ -3,10 +3,10 @@
 
 $message = "Welcome to PHP!";
 
-echo "Print using echo: " . $message . "<br>";  
+echo "Print using echo: $message <br>";  
 
-printf("Print using printf: %s<br>", $message); 
+printf("Print using printf: %s <br>", $message); 
 
-print "Print using print: " . $message . "<br>";  
+print "Print using print: $message <br>";  
 
 ?>

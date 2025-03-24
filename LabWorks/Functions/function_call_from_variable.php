@@ -1,9 +1,12 @@
 <?php
-/* 4. Define a function and store its name in a variable, then call it using the variable.
-*/
+/* 4. Define a function and store its name in a variable, then call it using the variable. */
+
+$name = "John Doe";  
+
 function storeAndDisplay($name){
-    $name = "Aakriti";
-    return "$name";
+    $name = "Aakriti";  
+    return "$name";     
 }
-storeAndDisplay($name);
+
+echo storeAndDisplay($name);  
 ?>
