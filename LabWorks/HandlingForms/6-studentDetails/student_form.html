@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <style>
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 8px 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h2>Student Registration Form</h2>
+    <form action="registration.php" method="POST">
+        <!-- Name -->
+        Name: <input type="text" name="name" required><br><br>
+        
+        <!-- Email -->
+        Email: <input type="email" name="email" required><br><br>
+        
+        <!-- Gender -->
+        Gender:
+        <input type="radio" name="gender" value="Male" required> Male
+        <input type="radio" name="gender" value="Female" required> Female<br><br>
+        
+        <!-- Courses -->
+        Courses:
+        <input type="checkbox" name="courses[]" value="Math"> Math
+        <input type="checkbox" name="courses[]" value="Science"> Science
+        <input type="checkbox" name="courses[]" value="English"> English
+        <input type="checkbox" name="courses[]" value="History"> History<br><br>
+        
+        <!-- Comments -->
+        Comments:<br>
+        <textarea name="comments" rows="4" cols="50"></textarea><br><br>
+        
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>
+    
