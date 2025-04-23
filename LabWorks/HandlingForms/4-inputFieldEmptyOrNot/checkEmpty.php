@@ -1,34 +1,17 @@
 <?php
-/* 
+/*
 4. Design a form to input username and password. 
 Check if the input fields are empty and display an error message if so.
 */
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $username = $_POST['username'];
+    $password = $_POST['password'];
 
-// Retrieving form data
-
-$name = $_POST['name'];
-
-$email = $_POST['email'];
-
-// Validating input
-
-if (empty($name) || empty($email)) {
-
-echo "All fields are required!";
-
-} else {
-
-// Sanitizing input
-
-$name = htmlspecialchars($name);
-
-$email = filter_var($email, FILTER_SANITIZE_EMAIL);
-
-echo "Hello, " . $name . "! Your email is " . $email;
-
+    if (empty($username) || empty($password)) {
+        echo "Both fields are required!";
+    } else {
+        $username = htmlspecialchars($username);
+        echo "Welcome, " . $username . "!";
+    }
 }
-
-}
-
 ?>
