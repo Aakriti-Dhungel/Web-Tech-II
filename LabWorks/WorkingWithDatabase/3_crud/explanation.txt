@@ -1,0 +1,21 @@
+Question: Build a Complete CRUD Application Using PHP and MySQLi Procedural.
+➤ Implement Create, Read, Update, and Delete functionality with form handling and database integration.
+
+
+Create: Insert user data through a form using create.php and insert.php.
+
+Read: Display users from the users table in read.php.
+
+Update: Edit user using edit.php and update with update.php.
+
+Delete: Remove user via delete.php.
+
+/** writing flow */
+database.sql
+db.php
+create.php
+insert.php
+read.php
+edit.php
+update.php
+delete.php
